@@ -147,6 +147,7 @@ Detected information is categorized into Low, Medium, or High risk.
 The user receives appropriate guidance on how to remove, replace, or protect the sensitive information.
 
 📁 Project Structure
+```
 ShadowKhan-Prompt-Sanitizer/
 │
 ├── index.html
@@ -160,7 +161,10 @@ ShadowKhan-Prompt-Sanitizer/
 │
 ├── README.md
 └── LICENSE
+```
+
 🛠️ Technology Stack
+```
 HTML5
 CSS3
 JavaScript
@@ -168,6 +172,7 @@ AI-powered security assistance
 Pattern-based sensitive data detection
 Risk classification
 Responsive web interface
+```
 
 ### ✅ So overall
 
