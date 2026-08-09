@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShadowKhan</title>
+
+    <link rel="stylesheet" href="popup.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🛡 ShadowKhan</h1>
+
+    <p class="subtitle">
+        AI Prompt Privacy & Security Guardian
+    </p>
+
+    <textarea
+        id="promptInput"
+        placeholder="Paste your AI prompt here..."></textarea>
+
+    <div class="buttons">
+
+        <button id="checkBtn">
+            🔍 Analyze Prompt
+        </button>
+
+        <button id="sanitizeBtn">
+            🔐 Sanitize Prompt
+        </button>
+
+    </div>
+
+    <div class="result">
+
+        <h2>Risk Level</h2>
+
+        <h1 id="riskLevel">LOW</h1>
+
+        <h3 id="riskScore">0%</h3>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🔎 Security Findings</h2>
+
+        <ul id="findings">
+
+            <li>No threats detected.</li>
+
+        </ul>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🛡 Threat Detection</h2>
+
+        <p id="threatDetection">
+
+            Waiting for analysis...
+
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🤖 AI Recommendation</h2>
+
+        <div id="recommendation">
+
+            Click "Analyze Prompt"
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🔐 Sanitized Prompt</h2>
+
+        <div id="sanitizedPrompt">
+
+            Sanitized prompt will appear here...
+
+        </div>
+
+    </div>
+
+    <button id="downloadBtn">
+
+        📄 Download Security Report
+
+    </button>
+
+</div>
+
+<script src="popup.js"></script>
+
+</body>
+
+</html>
