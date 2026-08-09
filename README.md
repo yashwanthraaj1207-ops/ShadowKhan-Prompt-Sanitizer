@@ -106,7 +106,7 @@ ShadowKhan includes an interactive security assistant that helps users understan
 
 Users can ask questions such as:
 
-```text
+```
 Why is sharing an API key dangerous?
 
 How can I protect my password?
@@ -116,6 +116,10 @@ What should I remove from this prompt?
 Is this information safe to share with an AI?
 
 How can I sanitize my prompt?
+```
+🧠 How ShadowKhan Works
+
+ShadowKhan follows a simple security workflow:
 
 User enters prompt
         ↓
@@ -130,6 +134,17 @@ Security Alert
 Security Recommendation
         ↓
 Safer Prompt
+🔍 Detection
+
+The application analyzes the entered prompt for potentially sensitive information.
+
+⚠️ Risk Assessment
+
+Detected information is categorized into Low, Medium, or High risk.
+
+🛡️ Security Recommendation
+
+The user receives appropriate guidance on how to remove, replace, or protect the sensitive information.
 
 📁 Project Structure
 ShadowKhan-Prompt-Sanitizer/
@@ -145,4 +160,26 @@ ShadowKhan-Prompt-Sanitizer/
 │
 ├── README.md
 └── LICENSE
+🛠️ Technology Stack
+HTML5
+CSS3
+JavaScript
+AI-powered security assistance
+Pattern-based sensitive data detection
+Risk classification
+Responsive web interface
+
+### ✅ So overall
+
+Your README structure is **correct**:
+
+**Title → Overview → Features → Risk Levels → AI Assistant → How It Works → Project Structure → Tech Stack**
+
+That's already a solid GitHub README. 🔥
+
+One tiny thing: **don't claim features that your actual code doesn't implement yet.** For example, if your current JavaScript only detects patterns and doesn't actually use AI, call it an **“AI-assisted security assistant”** only if you really have AI integration.
+
+Otherwise, GitHub reviewers may click through the code and go: *“👀 where is the AI?”* 😭
+
+For a hackathon/portfolio repo, **accuracy > fancy wording**.
 
