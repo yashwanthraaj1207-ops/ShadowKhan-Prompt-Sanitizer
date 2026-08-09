@@ -19,7 +19,7 @@ ShadowKhan addresses this problem by providing a security-focused layer between 
 The application analyzes the entered prompt, identifies potentially sensitive information, evaluates the associated risk level, and provides security recommendations to help users avoid accidental data exposure.
 
 ### 🔐 ShadowKhan helps users:
-
+```
 - Detect sensitive information in prompts
 - Identify potentially dangerous patterns
 - Classify security risks
@@ -28,7 +28,7 @@ The application analyzes the entered prompt, identifies potentially sensitive in
 - Understand why specific information is risky
 - Interact with an AI-powered security assistant
 - Reduce accidental exposure of confidential information
-
+```
 ---
 
 # ✨ Key Features
@@ -36,7 +36,7 @@ The application analyzes the entered prompt, identifies potentially sensitive in
 ## 🔍 1. Sensitive Data Detection
 
 ShadowKhan scans prompts for potentially sensitive information such as:
-
+```
 - 🔑 Passwords
 - 🔐 API Keys
 - 🪪 Government / Personal Identification Numbers
@@ -47,7 +47,7 @@ ShadowKhan scans prompts for potentially sensitive information such as:
 - 🔒 Authentication Tokens
 - 🗝️ Secret Configuration Values
 - 🧑‍💻 Access Credentials
-
+```
 The system analyzes the input and highlights potential security concerns.
 
 ---
